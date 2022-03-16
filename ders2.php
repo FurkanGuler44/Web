@@ -7,8 +7,24 @@
     <title>Ders-2</title>
 </head>
 <body>
+    <?php
+    
+    echo "Tırnak İşaretleri Arasındaki Farklar</h4>";
+    echo "<br>";
+    echo "Adnan Menderes Üniversitesi";
+    echo "<br>";
+    $uni="Adnan Menderes Üniversitesi";
+    echo "<br>";
 
-
+    echo "1-Kazandığınız Üniversite:" . '$uni';/* Değişkenin ismini yazdırır.*/
+    echo "<br>";
+    echo "2-Kazandığınız Üniversite:" . "$uni";/* Değişkenin içeriğini yazdırır.*/
+    echo "<br>";
+    echo "3-Kazandığınız Üniversite:" . $uni;/* Değişkenin içeriğini yazdırır.*/
+    echo "<br>";
+    echo "4-Kazandığınız Üniversite: $uni";/* Değişkenin içeriğini yazdırır.*/
+    
+    ?>
 
 </body>
 </html>
