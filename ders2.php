@@ -81,8 +81,55 @@
     $x=25;
     $karekok=sqrt($x);
     echo "$x'in karekökü $karekok'tir.";
-    
+
+    echo "<h5>Mutlak Değer İşlemi (abs)</h5>";
+    $x=(-4);
+    $mutlak=abs($x);
+    echo "|$x|'in mutlak değeri $mutlak'tür.";
+
+    echo "<h5>Taban Değişim İşlemi(base_convert(x,taban1,taban2))</h5>";
+    echo "27 sayısının 2'lik tabandaki karşılığı:" . base_convert(27,10,2);
+    $sayi=30;
+    $taban=10;
+    $yenitaban=2;
+    $sonuc=base_convert($sayi,$taban,$yenitaban);
+    echo "($sayi)<sub>($taban)</sub>: ($sonuc)<sub>$yenitaban</sub>";
+
+
+
+    echo "<h5>Mod İşlemi (fmod(x,y))</h5>";
+    $x=20;
+    $y=4;
+    $mod=fmod($x,$y);
+    echo "$x mod $y = $mod";
+    echo "$x sayısı: " . (fmod($x,2) == 0) ? "Çifttir." : "Tektir.";
+
+    echo "<h5>Yuvarlama İşlemi (round(x,y))</h5>";
+    $x=15.315;
+    $y=15.385;
+    echo "$x'in bir ondalık basamak yuvarlaması:" . round($x,1); 
+    echo "$y'in bir ondalık basamak yuvarlaması:" . round($y,1);
+    echo "$x'in iki ondalık basamak yuvarlaması:" . round($x,2);
+    echo "$y'in iki ondalık basamak yuvarlaması:" . round($y,2);
+
+
+    echo "<h5>Yuvarlama İşlemi(floor(x))</h5>";
+    /* Her zaman en yakın aşağı tam sayı değerine yuvarlama işlemi yapar.*/
+    $x = 15.315;
+    echo "$x : " .floor($x);
+
+    echo "<h5>Yuvarlama İşlemi(ceil)(x)</h5>";
+    /* Her zaman en yakın yukarı tam sayı değerine yuvarlama işlemi yapar.*/
+    $x = 15.315;
+    echo "$x" . ceil($x);
+
+    echo "<h5>Rastgele Sayı Üretme(rand)()</h5>";
+    echo rand(10,100);
+
+
+
     ?>
+
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
