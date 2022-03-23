@@ -124,7 +124,7 @@
             echo "$parca ";
         }
 
-
+        /* Trim - Substr - str_replace - md5 - sha1 */
 
     ?>
 
