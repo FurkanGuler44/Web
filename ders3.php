@@ -13,13 +13,13 @@
         Kuyruk ve yığın veri yapılarının php üzerinde dizileri kullanılarak örneklendiriniz.*/
 
         /* Kuyruk(Queue) Yapısı 
-        $dizi = array("Audi","Volkswagen","BMW","Mercedes-Benz");
-        array_push($dizi,"Porsche","Opel");
-        echo $dizi;*/
+        $arabalar = array("Audi","Volkswagen","BMW","Mercedes-Benz");
+        array_push($arabalar,"Porsche","Opel");
+        echo $arabalar;*/
 
         /* Yığın(Stack) Yapısı 
-        $kume = rand(10,100);
-        echo $kume;
+        $rastgele = rand(10,100);
+        echo $rastgele;
         */
 
 
