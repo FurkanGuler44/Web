@@ -126,6 +126,8 @@
     echo "<h5>Rastgele Sayı Üretme(rand)()</h5>";
     echo rand(10,100);
 
+    
+
 
 
     ?>
