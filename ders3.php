@@ -22,7 +22,7 @@
         echo $rastgele;
         */
 
-
+    /* afsfafafafafafdda */
 
         /* Rastgele üretilen sayı 
         50'den büyükse 
