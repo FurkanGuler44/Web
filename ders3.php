@@ -12,15 +12,14 @@
         /* Uygulama Ödevi
         Kuyruk ve yığın veri yapılarının php üzerinde dizileri kullanılarak örneklendiriniz.*/
 
-        /* Kuyruk(Queue) Yapısı 
+        /* Yığın (Stack) Yapısı 
         $arabalar = array("Audi","Volkswagen","BMW","Mercedes-Benz");
         array_push($arabalar,"Porsche","Opel");
         echo $arabalar;*/
 
-        /* Yığın(Stack) Yapısı 
-        $rastgele = rand(10,100);
-        echo $rastgele;
-        */
+        /* Kuyruk (Queue) Yapısı 
+       $arabalar_stack = array("Audi,"Volkswagen","BMW","Mercedes-Benz");
+
 
     
 
